@@ -1,74 +1,35 @@
-<!-- Profile README for Oshada Nilendra. Images are stored at the repository root. -->
+<!-- Profile README for Oshada Nilendra. Self-contained SVG cards use GitHub-compatible image markup. -->
+<img src="./hero.svg" width="100%" alt="Better Code, Bigger Dreams — Full Stack, AI and Robotics, Cloud and DevOps" />
 
-<p align="center">
-  <img src="./banner.png" width="100%" alt="Better Code, Bigger Dreams — sunset mountain city banner" />
+<p>
+  <img src="./about.svg" width="41%" align="top" alt="I'm Oshada Nilendra, a Computer Science undergraduate in Sri Lanka. I build AI products and software and explore cloud engineering. Small steps every day lead to big results." />
+  <img src="./mindset.svg" width="28%" align="top" alt="My mindset: learn, build, solve, create impact. Future me will be proud." />
+  <img src="./workspace-panel.svg" width="28%" align="top" alt="Developer workspace at sunset. Discipline builds freedom." />
 </p>
-
-<table>
-<tr>
-<td width="43%" valign="top">
-
-### 👤 About Me
-
-I'm **Oshada Nilendra**, a Computer Science undergraduate passionate about building real-world solutions with modern tech and AI.
-
-I love turning ideas into products and learning new things every day.
-
-🎓 Computer Science undergraduate  
-📍 Sri Lanka  
-💻 Building AI products and software  
-☁️ Exploring cloud engineering  
-🌱 Learning, building, and growing
-
-<img src="./quote.svg" width="100%" alt="Small steps every day lead to big results." />
-
-</td>
-<td width="28%" valign="top">
-<img src="./mindset.svg" width="100%" alt="My mindset: learn, build, solve, and create impact." />
-</td>
-<td width="29%" valign="top">
-<img src="./workspace.png" width="100%" alt="Illustrated developer workspace overlooking a city at sunset." />
-</td>
-</tr>
-</table>
 
 ### 🔗 Connect With Me
 
-<a href="https://github.com/oshada28nilendra-debug"><img src="https://img.shields.io/badge/GitHub-0b1623?style=for-the-badge&amp;logo=github&amp;logoColor=ffffff" alt="GitHub" /></a>
-<a href="https://github.com/oshada28nilendra-debug?tab=repositories"><img src="https://img.shields.io/badge/Explore_My_Work-0b1623?style=for-the-badge&amp;logo=github&amp;logoColor=58a6ff" alt="Explore my work" /></a>
-<!-- Add your actual LinkedIn, email, and portfolio URLs here; no fake contact links are included. -->
+<a href="https://github.com/oshada28nilendra-debug"><img src="https://img.shields.io/badge/GitHub-0b1623?style=flat&amp;logo=github&amp;logoColor=ffffff" height="28" alt="GitHub" /></a>
+<a href="https://github.com/oshada28nilendra-debug?tab=repositories"><img src="https://img.shields.io/badge/Explore_My_Work-0b1623?style=flat&amp;logo=github&amp;logoColor=58a6ff" height="28" alt="Explore my work" /></a>
+<!-- Add LinkedIn, email, and portfolio buttons only when actual URLs are available. -->
 
-<br />
+<img src="./tech-stack.svg" width="100%" alt="Tech stack and technologies I'm exploring: JavaScript, TypeScript, Python, C#, C, Dart; React, Next.js, Tailwind CSS, Flutter, Figma; Node.js, Express, ASP.NET Core, FastAPI; MongoDB, SQL Server, Firebase; GitHub Actions, Vercel, Railway, Docker; Postman, Socket.io and Firebase Auth." />
 
-<img src="./tech-stack.svg" width="100%" alt="Tech stack template: languages, frontend, backend, databases, DevOps and tools. Edit to match your skills." />
-
-### ⚡ Currently Learning
-
-`AI & Robotics` · `System Design` · `Cloud & DevOps` · `Full Stack` · `Data Engineering` · `Cyber Security`
-
-### 📊 GitHub Analytics
-
-<!-- Live public data from third-party widgets. Availability depends on those services. -->
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=oshada28nilendra-debug&amp;show_icons=true&amp;hide_border=false&amp;border_color=23415e&amp;bg_color=080f19&amp;title_color=c3d8f7&amp;text_color=9fb8d4&amp;icon_color=38bdf8&amp;hide_rank=true" alt="Live GitHub profile statistics" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oshada28nilendra-debug&amp;layout=compact&amp;langs_count=6&amp;border_color=23415e&amp;bg_color=080f19&amp;title_color=c3d8f7&amp;text_color=9fb8d4" alt="Most-used languages across public repositories" />
-</p>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=oshada28nilendra-debug&amp;bg_color=080f19&amp;color=9fb8d4&amp;line=00b7a0&amp;point=5eead4&amp;area=true&amp;hide_border=false" width="100%" alt="Recent GitHub contribution activity" />
+<a href="https://github.com/oshada28nilendra-debug?tab=overview"><img src="./analytics.svg" width="100%" alt="GitHub analytics and real contribution heatmap. Public-data snapshot dated 16 October 2026; click for current activity. Repository languages are counted by primary language, excluding forks." /></a>
 
 ### 📌 Featured Repositories
 
-| [API Contract Watch](https://github.com/oshada28nilendra-debug/api-contract-watch) | [Onward Coach](https://github.com/oshada28nilendra-debug/onward-coach) | [DatasetGuard](https://github.com/oshada28nilendra-debug/datasetguard) |
+| [API Contract Watch](https://github.com/oshada28nilendra-debug/api-contract-watch) | [PEARL Canteen](https://github.com/oshada28nilendra-debug/smartcanteen-pearl) | [DatasetGuard](https://github.com/oshada28nilendra-debug/datasetguard) |
 | :--- | :--- | :--- |
-| API contract project | AI coaching application | Dataset project |
+| API contract tooling | Campus dining application | Dataset tooling |
 
-### 🛠 Tools I Love
+<img src="./tools.svg" width="100%" alt="Tools I love: VS Code, Git, Docker, Linux, Figma, Notion and Postman." />
 
-`VS Code` · `Git` · `Docker` · `Linux` · `Figma` · `Notion` · `Postman`
+<details>
+<summary>⚡ Currently learning</summary>
 
----
+AI & Robotics · System Design · Cloud & DevOps · Full Stack · Data Engineering · Cyber Security
 
-<p align="center">
-  <i>“The best way to predict the future is to build it.”</i><br />
-  <sub>Build · Learn · Grow</sub>
-</p>
+</details>
+
+<p align="center"><i>“The best way to predict the future is to build it.”</i><br /><sub>Build · Learn · Grow</sub></p>
