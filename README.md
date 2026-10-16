@@ -2,7 +2,7 @@
 <img src="./hero.svg" width="100%" alt="Better Code, Bigger Dreams — Full Stack, AI and Robotics, Cloud and DevOps" />
 
 <p>
-  <img src="./about.svg" width="41%" align="top" alt="I'm Oshada Nilendra, a Computer Science undergraduate in Sri Lanka. I build AI products and software and explore cloud engineering. Small steps every day lead to big results." />
+  <img src="./about.svg" width="41%" align="top" alt="I'm a Computer Science undergraduate in Sri Lanka. I build AI products and software and explore cloud engineering. Small steps every day lead to big results." />
   <img src="./mindset.svg" width="28%" align="top" alt="My mindset: learn, build, solve, create impact. Future me will be proud." />
   <img src="./workspace-panel.svg" width="28%" align="top" alt="Developer workspace at sunset. Discipline builds freedom." />
 </p>
