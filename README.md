@@ -15,7 +15,9 @@
 
 <img src="./tech-stack.svg" width="100%" alt="Tech stack and technologies I'm exploring: JavaScript, TypeScript, Python, C#, C, Dart; React, Next.js, Tailwind CSS, Flutter, Figma; Node.js, Express, ASP.NET Core, FastAPI; MongoDB, SQL Server, Firebase; GitHub Actions, Vercel, Railway, Docker; Postman, Socket.io and Firebase Auth." />
 
-<a href="https://github.com/oshada28nilendra-debug?tab=overview"><img src="./analytics.svg" width="100%" alt="GitHub analytics and real contribution heatmap. Public-data snapshot dated 16 October 2026; click for current activity. Repository languages are counted by primary language, excluding forks." /></a>
+<a href="https://github.com/oshada28nilendra-debug?tab=overview"><img src="./analytics.svg" width="100%" alt="GitHub analytics and real contribution heatmap. Automatically refreshed daily; see the update date on the card. Click for current activity. Repository languages are counted by primary language, excluding forks." /></a>
+
+<sub>Updates daily · <a href="./ANALYTICS.md">Refresh details</a></sub>
 
 ### 📌 Featured Repositories
 

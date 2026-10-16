@@ -1,0 +1,46 @@
+name: Update profile analytics
+
+on:
+  schedule:
+    # Daily at 05:17 Sri Lanka time (00:47 UTC).
+    - cron: '47 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-analytics.yml'
+      - 'scripts/update_analytics.py'
+      - 'tests/test_analytics.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-analytics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Test updater
+        run: python3 -m unittest discover -s tests -v
+      - name: Fetch public activity and regenerate card
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_analytics.py
+      - name: Publish refreshed analytics
+        run: |
+          if git diff --quiet -- analytics.svg; then
+            echo "Analytics already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analytics.svg
+          git commit -m "Refresh GitHub profile analytics"
+          git pull --rebase origin main
+          git push origin HEAD:main
